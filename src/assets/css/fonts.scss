@@ -1,0 +1,164 @@
+$app-regular-font-family: Helvetica, Arial, sans-serif;
+$app-semi-bold-font-family: Helvetica, Arial, sans-serif;
+$app-bold-font-family: Helvetica, Arial, sans-serif;
+
+$size-10: 10px;
+$size-12: 12px;
+$size-14: 14px;
+$size-16: 16px;
+$size-18: 18px;
+$size-20: 20px;
+$size-22: 22px;
+$size-24: 24px;
+$size-32: 32px;
+$size-36: 36px;
+
+@font-face {
+    font-family: 'App-Bold';
+    src: url('fonts/app/Muli-Bold.ttf') format("ttf")
+}
+
+@font-face {
+    font-family: 'App-Regular';
+    src: url('fonts/app/Muli-Regular.ttf') format("ttf")
+}
+
+@font-face {
+    font-family: 'App-SemiBold';
+    src: url('fonts/app/Muli-SemiBold.ttf') format("ttf")
+}
+
+
+strong, b {
+    font-family: $app-bold-font-family;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $app-bold-font-family;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: $size-36;
+}
+
+h2 {
+    font-size: $size-24;
+}
+
+h3 {
+    font-size: $size-18;
+}
+
+.app-regular {
+    font-family: $app-regular-font-family;
+}
+.app-regular-10 {
+    font-family: $app-regular-font-family;
+    font-size: $size-10;
+}
+.app-regular-12 {
+    font-family: $app-regular-font-family;
+    font-size: $size-12;
+}
+.app-regular-14 {
+    font-family: $app-regular-font-family;
+    font-size: $size-14;
+}
+.app-regular-16 {
+    font-family: $app-regular-font-family;
+    font-size: $size-16;
+}
+.app-regular-18 {
+    font-family: $app-regular-font-family;
+    font-size: $size-18;
+}
+.app-regular-20 {
+    font-family: $app-regular-font-family;
+    font-size: $size-20;
+}
+.app-regular-22 {
+    font-family: $app-regular-font-family;
+    font-size: $size-22;
+}
+.app-regular-24 {
+    font-family: $app-regular-font-family;
+    font-size: $size-24;
+}
+.app-regular-36 {
+    font-family: $app-regular-font-family;
+    font-size: $size-36;
+}
+
+.app-bold {
+    font-family: $app-bold-font-family;
+}
+.app-bold-12 {
+    font-family: $app-bold-font-family;
+    font-size: $size-12;
+}
+.app-bold-14 {
+    font-family: $app-bold-font-family;
+    font-size: $size-14;
+}
+.app-bold-16 {
+    font-family: $app-bold-font-family;
+    font-size: $size-16;
+}
+.app-bold-18 {
+    font-family: $app-bold-font-family;
+    font-size: $size-18;
+}
+.app-bold-20 {
+    font-family: $app-bold-font-family;
+    font-size: $size-20;
+}
+.app-bold-22 {
+    font-family: $app-bold-font-family;
+    font-size: $size-22;
+}
+.app-bold-24 {
+    font-family: $app-bold-font-family;
+    font-size: $size-24;
+}
+.app-bold-36 {
+    font-family: $app-bold-font-family;
+    font-size: $size-36;
+}
+
+.app-semi-bold {
+    font-family: $app-semi-bold-font-family;;
+}
+.app-semi-bold-12 {
+    font-family: $app-semi-bold-font-family;;
+    font-size: $size-12;
+}
+.app-semi-bold-14 {
+    font-family: $app-semi-bold-font-family;;
+    font-size: $size-14;
+}
+.app-semi-bold-16 {
+    font-family: $app-semi-bold-font-family;;
+    font-size: $size-16;
+}
+.app-semi-bold-18 {
+    font-family: $app-semi-bold-font-family;;
+    font-size: $size-18;
+}
+.app-semi-bold-20 {
+    font-family: $app-semi-bold-font-family;;
+    font-size: $size-20;
+}
+.app-semi-bold-22 {
+    font-family: $app-semi-bold-font-family;;
+    font-size: $size-22;
+}
+.app-semi-bold-24 {
+    font-family: $app-semi-bold-font-family;;
+    font-size: $size-24;
+}
+.app-semi-bold-36 {
+    font-family: $app-semi-bold-font-family;;
+    font-size: $size-36;
+}

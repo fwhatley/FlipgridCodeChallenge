@@ -1,0 +1,356 @@
+/* main app theme colors */
+$app-very-light-blue: #CBE1FD;
+$app-light-blue: #95C1F9;
+$app-medium-blue: #2C83F5;
+$app-medium-dark-blue: #2C84F4;
+$app-dark-blue: #2775DB;
+$app-very-dark-blue: #2368C2;
+$app-extreme-dark-blue: #1E5AA8;
+$app-very-extreme-dark-blue: #153F75;
+$app-light-skyblue: #C7EDFE;
+$app-medium-skyblue: #8EDBFD;
+$app-medium-dark-skyblue: #69CFFC;
+$app-dark-skyblue: #44C4FC;
+$app-very-dark-skyblue: #2BBEFC;
+$app-extreme-dark-skyblue: #12B6FC;
+$app-very-extreme-dark-skyblue: #00B1FC;
+$app-light-purple: #C9C7F9;
+$app-medium-purple: #7C76F5;
+$app-medium-dark-purple: #655DF5;
+$app-dark-purple: #4C44F4;
+$app-very-dark-purple: #453DDB;
+$app-extreme-dark-purple: #3D36C2;
+$app-very-extreme-dark-purple: #352FA8;
+$app-very-extreme-light-gray: #FBFBFB;
+$app-extreme-light-gray: #F7F7F7;
+$app-very-light-gray: #CCCCCC;
+$app-light-gray: #A1A2A3;
+$app-medium-gray: #8B8C8D;
+$app-medium-dark-gray: #767779;
+$app-dark-gray: #5B5C5E;
+$app-very-dark-gray: #454648;
+$app-extreme-dark-gray: #2B2C2F;
+$app-facebook-gray: #F2F3F5;
+$app-very-extreme-dark-gray: #16171A;
+$app-black: #000000;
+$app-white: #FFFFFF;
+$app-red: #FC1212;
+$app-orange: #FF5502;
+$app-magenta: #FF017F;
+$app-yellow: #FFCD00;
+
+
+/* main font colors */
+.app-very-light-blue {
+    color: $app-very-light-blue !important;
+}
+
+.app-light-blue {
+    color: $app-light-blue !important;
+}
+
+.app-medium-blue {
+    color: $app-medium-blue !important;
+}
+
+.app-medium-dark-blue {
+    color: $app-medium-dark-blue !important;
+}
+
+.app-dark-blue {
+    color: $app-dark-blue !important;
+}
+
+.app-very-dark-blue {
+    color: $app-very-dark-blue !important;
+}
+
+.app-extreme-dark-blue {
+    color: $app-extreme-dark-blue !important;
+}
+
+.app-very-extreme-dark-blue {
+    color: $app-very-extreme-dark-blue !important;
+}
+
+
+.app-light-skyblue {
+    color: $app-light-skyblue !important;
+}
+
+.app-medium-skyblue {
+    color: $app-medium-skyblue !important;
+}
+
+.app-medium-dark-skyblue {
+    color: $app-medium-dark-skyblue !important;
+}
+
+.app-dark-skyblue {
+    color: $app-dark-skyblue !important;
+}
+
+.app-very-dark-skyblue {
+    color: $app-very-dark-skyblue !important;
+}
+
+.app-extreme-dark-skyblue {
+    color: $app-extreme-dark-skyblue !important;
+}
+
+.app-very-extreme-dark-skyblue {
+    color: $app-very-extreme-dark-skyblue !important;
+}
+
+
+.app-light-purple {
+    color: $app-light-purple !important;
+}
+
+.app-medium-purple {
+    color: $app-medium-purple !important;
+}
+
+.app-medium-dark-purple {
+    color: $app-medium-dark-purple !important;
+}
+
+.app-dark-purple {
+    color: $app-dark-purple !important;
+}
+
+.app-very-dark-purple {
+    color: $app-very-dark-purple !important;
+}
+
+.app-extreme-dark-purple {
+    color: $app-extreme-dark-purple !important;
+}
+
+.app-very-extreme-dark-purple {
+    color: $app-very-extreme-dark-purple !important;
+}
+
+
+.app-very-extreme-light-gray {
+    color: $app-very-extreme-light-gray !important;
+}
+
+.app-extreme-light-gray {
+    color: $app-extreme-light-gray !important;
+}
+
+.app-very-light-gray {
+    color: $app-very-light-gray !important;
+}
+
+.app-light-gray {
+    color: $app-light-gray !important;
+}
+
+.app-medium-gray {
+    color: $app-medium-gray !important;
+}
+
+.app-medium-dark-gray {
+    color: $app-medium-dark-gray !important;
+}
+
+.app-dark-gray {
+    color: $app-dark-gray !important;
+}
+
+.app-very-dark-gray {
+    color: $app-very-dark-gray !important;
+}
+
+.app-extreme-dark-gray {
+    color: $app-extreme-dark-gray !important;
+}
+
+.app-very-extreme-dark-gray {
+    color: $app-very-extreme-dark-gray !important;
+}
+
+
+/* other font colors */
+.app-black {
+    color: $app-black !important;
+}
+
+.app-white {
+    color: $app-white !important;
+}
+
+.app-red {
+    color: $app-red !important;
+}
+
+.app-magenta {
+    color: $app-magenta !important;
+}
+
+
+/* main backgrounds colors */
+.app-very-light-blue-bg {
+    background-color: $app-very-light-blue;
+}
+
+.app-light-blue-bg {
+    background-color: $app-light-blue;
+}
+
+.app-medium-blue-bg {
+    background-color: $app-medium-blue;
+}
+
+.app-medium-dark-blue-bg {
+    background-color: $app-medium-dark-blue;
+}
+
+.app-dark-blue-bg {
+    background-color: $app-dark-blue;
+}
+
+.app-very-dark-blue-bg {
+    background-color: $app-very-dark-blue;
+}
+
+.app-extreme-dark-blue-bg {
+    background-color: $app-extreme-dark-blue;
+}
+
+.app-very-extreme-dark-blue-bg {
+    background-color: $app-very-extreme-dark-blue;
+}
+
+
+.app-light-skyblue-bg {
+    background-color: $app-light-skyblue;
+}
+
+.app-medium-skyblue-bg {
+    background-color: $app-medium-skyblue;
+}
+
+.app-medium-dark-skyblue-bg {
+    background-color: $app-medium-dark-skyblue;
+}
+
+.app-dark-skyblue-bg {
+    background-color: $app-dark-skyblue;
+}
+
+.app-very-dark-skyblue-bg {
+    background-color: $app-very-dark-skyblue;
+}
+
+.app-extreme-dark-skyblue-bg {
+    background-color: $app-extreme-dark-skyblue;
+}
+
+.app-very-extreme-dark-skyblue-bg {
+    background-color: $app-very-extreme-dark-skyblue;
+}
+
+
+.app-light-purple-bg {
+    background-color: $app-light-purple;
+}
+
+.app-medium-purple-bg {
+    background-color: $app-medium-purple;
+}
+
+.app-medium-dark-purple-bg {
+    background-color: $app-medium-dark-purple;
+}
+
+.app-dark-purple-bg {
+    background-color: $app-dark-purple;
+}
+
+.app-very-dark-purple-bg {
+    background-color: $app-very-dark-purple;
+}
+
+.app-extreme-dark-purple-bg {
+    background-color: $app-extreme-dark-purple;
+}
+
+.app-very-extreme-dark-purple-bg {
+    background-color: $app-very-extreme-dark-purple;
+}
+
+
+.app-very-extreme-light-gray-bg {
+    background-color: $app-very-extreme-light-gray;
+}
+
+.app-facebook-gray-bg {
+    background-color: $app-facebook-gray;
+}
+
+.app-extreme-light-gray-bg {
+    background-color: $app-extreme-light-gray;
+}
+
+.app-very-light-gray-bg {
+    background-color: $app-very-light-gray;
+}
+
+.app-light-gray-bg {
+    background-color: $app-light-gray;
+}
+
+.app-medium-gray-bg {
+    background-color: $app-medium-gray;
+}
+
+.app-medium-dark-gray-bg {
+    background-color: $app-medium-dark-gray;
+}
+
+.app-dark-gray-bg {
+    background-color: $app-dark-gray;
+}
+
+.app-very-dark-gray-bg {
+    background-color: $app-very-dark-gray;
+}
+
+.app-extreme-dark-gray-bg {
+    background-color: $app-extreme-dark-gray;
+}
+
+.app-very-extreme-dark-gray-bg {
+    background-color: $app-very-extreme-dark-gray;
+}
+
+.app-white-bg {
+    background-color: $app-white;
+}
+
+.app-red-bg {
+    background-color: $app-red;
+}
+
+.app-orange-bg {
+    background-color: $app-orange;
+}
+
+.app-yellow-bg {
+    background-color: $app-yellow;
+}
+
+
+a {
+    color: $app-dark-skyblue;
+}
+
+.app-medium-dark-blue-border {
+    border-color: $app-medium-dark-blue;
+}
+
+
+
