@@ -1,0 +1,13 @@
+.ui-sign-up-confirmation {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 1em;
+    .ui-sign-up-confirmation__strong-title {
+        font-weight: 900;
+    }
+    .ui-sign-up-confirmation__action-buttons {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+

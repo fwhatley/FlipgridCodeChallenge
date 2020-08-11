@@ -1,0 +1,13 @@
+@import 'src/assets/css/colors';
+
+.ui-input {
+    display: block;
+    input, input:focus, input:active {
+        width: 100%;
+        padding: 0.6em 1em;
+        margin: 0.4em 0;
+        border: 0.05em solid $app-very-light-gray;
+        border-radius: 0.55em;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,25 @@
+@import 'src/assets/css/colors';
+
+.ui-button {
+    background-color: $app-white;
+    border: none;
+    border-radius: 0.4em;
+    color: black;
+    padding: 0.7em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.ui-button--primary {
+    color: $app-white;
+    background-color: $app-orange;
+}
+
+.ui-button--secondary {
+ /* another modifier here */
+}
